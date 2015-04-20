@@ -41,7 +41,7 @@ Building on this success a new design has been proposed to satisfy competing nee
 
 \section{Changes to Beam Screen Design}
 
-The new screen involves a redesign of the capacitively coupled end of the beam screen to reduce the electrical field, due to the induced potentials on the screen conductors during magnet pulsing. This reduced electric field decreases the possibility of surface breakdown on the internal face of the ceramic tube allowing additional screen conductors to be inserted, where previously they had been removed due to being located in regions of high electric field, providing complete screening of the ferrite yoke of the magnet. See \cite{mki-ElecBreakdown} for more information on behaviour relating to surface flashover. 
+
 
 \begin{figure}
 \begin{center}
@@ -55,27 +55,7 @@ The new screen involves a redesign of the capacitively coupled end of the beam s
 
 \section{Impedance Measurements}
 
-In order to observe the effect of manufacutring tolerences between kicker magnets and as part of the campaign to characterise the impedance of all devices placed into the LHC each of the MKIs with the new beam screen has its longitudinal beam coupling impedance measured following assembly. These measurements are carried out using the resonant coaxial wire method \cite{DayThesis}, a measurement technique that turns the device under test (DUT) into a coaxial resonator with a weak external coupling. This permits very sensitive measurements of the impedance of the DUT to be made at the expense of poor frequency resolution.
 
-The real component of the longitudinal beam coupling impedance of an example of the new design, as well as for an MKI before LS1 (with 15 screen conductors), and the MKI8D before (a twist existed in the ceramic tube exposing ferrite to the beam) and the replacement from TS3 (with 19 screen conductors) are shown in Fig.~\ref{fig:Imp241915}. It can be seen that the new design has a substantially lower beam coupling impedance over the majority of the frequency range, with the broadband impedance seen in the case of 15 screen conductors becoming resonant in nature at certain frequencies with 24 conductors. This is due to the improved screening of the ferrite yoke by having 24 screen conductors equally distributed around the ceramic tube as opposed to an arc of $\approx$135$^{\circ}$ left unscreened when only 15 screen conductors are in place. The twist in the ceramic tube exposing more ferrite clearly increases the beam impedance substantially.
-
-\begin{figure}
-\includegraphics[width=0.45\textwidth]{measImp151924.pdf}
-\caption{The measured longitudinal beam coupling impedance for the new beam screen design, the design with 15 screen conductors, as was the case for most magnets prior to LS1, and the upgraded MKI8D, inserted in TS3. The replaced MKI8D is also shown for comparison.}
-\label{fig:Imp241915}
-\end{figure}
-
-Figure~\ref{fig:allNewMKIImp} shows the longitudinal impedance all 9 MKIs assembled with the new beam screen design to date (June 2014); the consistency between the magnets is very good up to the first measured resonance at 890MHz. 
-
-\begin{figure}
-\includegraphics[width=0.45\textwidth]{mkiNewDesignAll.pdf}
-\caption{The measured longitudinal beam coupling impedance for the first 9 magnets fitted with the new beam screen design.}
-\label{fig:allNewMKIImp}
-\end{figure}
-
-It's known from simulations of the new design \cite{DayThesis} that a number of resonances are missed by the resonant coaxial wire method - it provides very good accuracy for the measurements but relatively poor frequency resolution if only the DUT is used in the coaxial resonator; frequency data points are spaced such that $\Delta f \approx \frac{nc}{2L_{DUT}}$, where $n$ is an integer, $c$ the speed of light, and $L_{DUT}$ the length of the device measured. The classical coaxial wire technique gives an improved frequency resolution, however any residual mismatch in the characteristic impedance between the measurement network and the DUT will result in reflections in the system which limits the achieveable accuracy. It's also possible to use time domain gating to gate out reflected signals, however due to the varying characteristic impedance along the length of the DUT it's difficult to gate all reflections without losing sensitivity in the measurements.
-
-A comparison of the beam coupling impedance for each method is shown in Fig.~\ref{fig:measComp}. The frequency domain data for the time domain gated measurement is processed to give a beam coupling impedance: it can be seen that there is a large DC offset, caused by the loss of transmitted energy by the gating of the signal. The resistively matched measurements give good results below $\approx$ 500 MHz but the residual mismatch in the system (characteristic impedance of DUT $Z_{c}^{DUT}\approx 270$ $\Omega$ was matched used a carbon film resistor of 220 $\Omega$) causes large oscillations which mask the true impedance. It can be seen that although the gated and matched network measurements give useful information, particularly the presence of lower frequency impedance, the absolute magnitude is not necessarily useful.
 
 \begin{figure}
 \includegraphics[width=0.45\textwidth]{compMeasurementGating.pdf}
@@ -85,14 +65,13 @@ A comparison of the beam coupling impedance for each method is shown in Fig.~\re
 
 \section{Power Loss}
 
-To determine the temperatures reached during operation of the MKI under various operational conditions of the LHC it is necessary to calculate the power lost by the beam into the MKIs due to beam-wakefield interactions. Assuming $M$ equi-spaced, equal populated bunches in a circular machine, power loss is calculated using Eqn.~\ref{eqn:powLoss}, where $f_{0}$ is the revolution frequnecy, $\omega_{0}=2\pi f_{0}$, $e$ is the charge of an electron, $N_{b}$ is the number of particles per bunch, $\lambda(\omega)$ is the beam current spectrum, and $\Re{}e(Z_{\parallel}(\omega))$ is the real component of the longitudinal beam coupling impedance. $\lambda(\omega)$ is highly dependent on the bunch profile, especially the bunch length $t_{b}$. The bunch separation is defined by $\tau_{sep}$.
+
 
 \begin{equation}
 P_{loss} = 2 \left( f_{0} e M  N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p M \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p M \omega_{0} \right) \right]
 \label{eqn:powLoss}
 \end{equation}
 
-The power losses are calculated assuming the parameters shown in Table~\ref{tab:beamPara}, representing the LHC operational parameters before long shutdown 1 (LS1), after LS1 and covering two possible upgrade paths for High-Luminousity LHC (HL-LHC) using either 50ns or 25ns bunch spacing. The power loss for 15 screen conductors (as most MKIs were prior to LS1) and with the new design with 24 screen conductors (as all MKIs will have post-LS1) is shown in table~\ref{tab:powLoss}. The new beam screen design will give a dramatic reduction in the power lost into the MKIs, from 68W pre-LS1 to between 34-52W after LS1 - a reduction of 20-50\%. However the proposed HL-LHC parameters, with a higher beam current, will cause the power loss to increase signficantly again - such that the power loss even exceeds the power loss experienced by the MKI8D before TS3 ($\approx 160W$) - indicating that heating may become a problem again if steps aren't taken to remedy the situation \cite{mkiCoolling}.
 
 \begin{table}
 \caption{Beam Parameters for different LHC operational modes}
@@ -124,23 +103,9 @@ HL-LHC, 25ns & 125-191 & 432  \\
 
 \section{Future Plans}
 
-Following from the possibility of recurring heating problems in the MKIs under HL-LHC parameters, even with the new beam screen design, efforts are being made to increase the rate of power evacuation from the ferrite yoke by improving the ability of the magnet to radiate thermal energy and by considering additional cooling solutions \cite{mkiCoolling}. In addition it's being considered how to reduce the beam-induced power loss to the structure further. If the ferrite yoke is well screened (as it is with the new beam screen design) the resonant impedance profile seen in Fig.~\ref{fig:allNewMKIImp} is determined by the overlap between the screen conductors and the external cylinder at the capactively coupled end, such that the resonant frequency $f_{res}$ is given by
-
-\begin{equation}
-f_{res} = \frac{n c}{2 \sqrt{\epsilon_{r}}\left( L_{overlap} + \delta_{fringe} \right)}
-\end{equation}
-
-where $n$ is an integer, $\epsilon_{r}$ the relative permitivitty of the ceramic tube, $L_{overlap}$ the length of overlap between the screen conductors and the external cylinder and $\delta_{fringe}$ the influence of the fringe fields on the effective length. It can be seen that by reducing the length of the overlap ($L_{overlap}=107mm$ maximum for the new design) it would be possible to drastically reduce the interaction with the beam current spectrum as the resonances would be pushed to higher frequencies where the current spectrum is lower. A number of simulations have been carried out using CST particle studio \cite{cst-cite}, assuming different lengths of overlap, to verify that this path of investigation would be fruitful. Preliminary results (shown in Fig.~\ref{fig:overLapSpec}) indicate that the resonances indeed move to higher frequencies, however how these interact with the beam current spectrum in terms of power loss requires more investigation.
-
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{overlapSpec.pdf}
-\caption{The beam current spectrum of a 1ns gaussian bunch compared to the real longitudinal beam coupling impedance for a number of different length overlaps between the screen conductors and the external cylinder.}
-\label{fig:overLapSpec}
-\end{figure}
 
 \section{Summary}
 
-The upgrades to the beam screen of the LHC injection kickers has been discussed from the view of the beam coupling impedance and beam-induced heating, demonstrating that there will be a substantially lower power loss into the magnets after LS1 of the LHC is finished. Power loss calculations for HL-LHC indicate that heating of the device may again become a problem and some solutions are discussed with preliminary results shown. In addition some comments on different beam impedance measurement methods are given relating to their use on low beam coupling impedance devices, including benefits and drawbacks in this situation.
 
 
 
