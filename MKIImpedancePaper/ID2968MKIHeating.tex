@@ -29,8 +29,6 @@ The injection kicker magnets (MKIs) are fast pulsed transmission line kicker mag
 
 The planned high luminousity upgrade of the LHC (called HL-LHC) will involve a doubling of the beam current in the LHC under current nominal parameters [cite] - this is predicted to lead to again a four fold increase in the power loss to all devices in the LHC unless counter-measures are taken. To this end further improvements to the beam screen have been studied in order to reduce the power loss into the magnet whilst continuing to ensure good high voltage (HV) performance during pulsing and good field quality for operation.
 
-
-into the   \cite{mki-heatingTemp}
 Building on this success a new design has been proposed to satisfy competing needs of low rates of electrical breakdown, during magnet pulsing, and a low beam coupling impedance to reduce the power lost into the structure by wakefields; in addition to meeting strict requirements for magnet operation for field rise time and flat top ripple \cite{mkiUpgrade}. 
 
 \begin{figure}
@@ -41,16 +39,33 @@ Building on this success a new design has been proposed to satisfy competing nee
 
 \section{Changes to Beam Screen Design}
 
-
+Past work on the beam screen of the MKI has focused on improving the screening of the ferrite yoke from the beam by increasing the number of screen conductors in the beam screen to the full compliment of 24 - during the first run of the LHC only 15 screen conductors were in place, positioned closest to the return busbar (see Fig.~\ref{fig:LengthWiseSlice}), due to issues with surface flashover during magnet pulsing [cite relevant schnitzel]. 
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{beamScreenCrossSectionLabelled.pdf}
-\caption{Cross section of the new beam screen design}
-\label{fig:beamScreenCross}
+\caption{Cross-section of the beam screen of the MKI. Conductors circled in red weren't in place prior to long-shutdown 1}
+\label{fig:LengthWiseSlice}
 \end{center}
 \end{figure}
 
+A revised beam screen was designed that reduced the electric field strength during magnet pulsing sufficiently to allow 24 conductors to be inserted into the screen for post-LS1 [cite MKI upgrade], shown in Fig.~\ref{fig:BeamScreenPostLS1}. This is predicted to see a substantial reduction in the power loss in the MKIs post LS1, by a factor of almost 2 (see Table~\ref{tab:PowLoss}), even accounting for the increased beam current with the change to 25ns bunch separation. However this is not expected to be sufficient for HL-LHC operation, which will see a much higher beam current than nominal LHC operation (see Table~\ref{tab:beamPara}) and is predicted to see power losses comparable to that which caused a faulty magnet to heat beyond it's point during early operation of the LHC [cite ol' 8D], thus necessitating further modifications.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{beamScreenCrossSectionLabelled.pdf}
+\caption{Cross-section of the beam screen of the MKI. Conductors circled in red weren't in place prior to long-shutdown 1}
+\label{fig:BeamScreenPostLS1}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{beamScreenCrossSectionLabelled.pdf}
+\caption{Cross-section of the proposed beam screen for the MKI under HL-LHC conditions.}
+\label{fig:BeamScreenHLLHC}
+\end{center}
+\end{figure}
 
 
 \section{Impedance Measurements}
@@ -127,8 +142,10 @@ M.J. Barnes \emph{et al}., \emph{"Reduction of Surface Flashover of the Beam Scr
 PhD Thesis, H. Day, 2013.
 
 \bibitem{mkiCoolling}
-M. Barnes \emph{et al}., \emph{"Cooling of the LHC Injection Kicker Magnet Ferrite Yoke: Measurements and Future Proposals"}, MOPME075, these proceedings.
+M. Barnes \emph{et al}., \emph{"Cooling of the LHC Injection Kicker Magnet Ferrite Yoke: Measurements and Future Proposals"}, IPAC'14, Dresden, Germany, MOPME075.
 
+\bibitem{mkiImp2014}
+H. Day \emph{et al}., \emph{"Beam Coupling Impedance of the New Beam Screen of the LHC Injection Kicker Magnets"}, IPAC'14, Dresden, Germany, TUPRI030.
 \bibitem{cst-cite}
 \texttt{http://www.cst.com}.
 
