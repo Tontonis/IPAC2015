@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  20 APR 2015 14:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  21 APR 2015 13:16
 entering extended mode
 **E:/GitHub/IPAC2015/MKIImpedancePaper/ID2968MKIHeating.tex
 (E:/GitHub/IPAC2015/MKIImpedancePaper/ID2968MKIHeating.tex
@@ -1176,12 +1176,15 @@ File: csquotes.cfg
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-(E:\GitHub\IPAC2015\MKIImpedancePaper\ID2968MKIHeating.aux)
+(E:\GitHub\IPAC2015\MKIImpedancePaper\ID2968MKIHeating.aux
+
+LaTeX Warning: Label `eqn:powLoss' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 15.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 15
 .
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\newtx\omlntxmi.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\newtx\omlntxmi.fd"
 File: omlntxmi.fd 2012/03/22 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 15.
@@ -1342,26 +1345,34 @@ Package microtype Info: Loading generic settings for font family
 File: MKICrossSectionYZ.pdf Graphic file (type pdf)
 
 <use MKICrossSectionYZ.pdf>
-Package pdftex.def Info: MKICrossSectionYZ.pdf used on input line 37.
+Package pdftex.def Info: MKICrossSectionYZ.pdf used on input line 35.
 (pdftex.def)             Requested size: 241.84842pt x 96.73282pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 37--38
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 35--36
 [][] 
  []
 
-<beamScreenCrossSectionLabelled.pdf, id=2, 512.1534pt x 284.62335pt>
-File: beamScreenCrossSectionLabelled.pdf Graphic file (type pdf)
+<sliceLabelled.pdf, id=2, 426.8748pt x 313.04956pt>
+File: sliceLabelled.pdf Graphic file (type pdf)
+ <use sliceLabelled.pdf>
+Package pdftex.def Info: sliceLabelled.pdf used on input line 46.
+(pdftex.def)             Requested size: 241.84842pt x 177.36533pt.
 
-<use beamScreenCrossSectionLabelled.pdf>
-Package pdftex.def Info: beamScreenCrossSectionLabelled.pdf used on input line 
-48.
-(pdftex.def)             Requested size: 241.84842pt x 134.40706pt.
-
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 48--49
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 46--47
  [] 
  []
 
+
+LaTeX Warning: Reference `tab:PowLoss' on page 1 undefined on input line 52.
+
+[1{C:/Users/hday/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <E:/GitHub/IPAC2015/MKIImpedancePaper/MKICrossSectionYZ.pdf> <E:/GitHub/IPAC20
+15/MKIImpedancePaper/sliceLabelled.pdf>]
+<beamScreenCrossSectionLabelled.pdf, id=32, 512.1534pt x 284.62335pt>
 File: beamScreenCrossSectionLabelled.pdf Graphic file (type pdf)
+
 <use beamScreenCrossSectionLabelled.pdf>
 Package pdftex.def Info: beamScreenCrossSectionLabelled.pdf used on input line 
 56.
@@ -1371,98 +1382,85 @@ Overfull \hbox (7.11319pt too wide) in paragraph at lines 56--57
  [] 
  []
 
-<compMeasurementGating.pdf, id=3, 703.7291pt x 323.40826pt>
+
+Overfull \hbox (4.46597pt too wide) detected at line 73
+\OML/ntxmi/m/it/10 P[] \U/ntxmia/m/it/10 = \T1/qtm/m/n/10 2 [][] [] [][] \OMS/n
+txsy/m/n/10 <[]\OML/ntxmi/m/it/10 e [][]
+ []
+
+File: beamScreenCrossSectionLabelled.pdf Graphic file (type pdf)
+<use beamScreenCrossSectionLabelled.pdf>
+Package pdftex.def Info: beamScreenCrossSectionLabelled.pdf used on input line 
+80.
+(pdftex.def)             Requested size: 241.84842pt x 134.40706pt.
+
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 80--81
+ [] 
+ []
+
+<compMeasurementGating.pdf, id=33, 703.7291pt x 323.40826pt>
 File: compMeasurementGating.pdf Graphic file (type pdf)
 
 <use compMeasurementGating.pdf>
-Package pdftex.def Info: compMeasurementGating.pdf used on input line 67.
+Package pdftex.def Info: compMeasurementGating.pdf used on input line 92.
 (pdftex.def)             Requested size: 217.6621pt x 100.02852pt.
 
-Overfull \hbox (4.46597pt too wide) detected at line 79
+Overfull \hbox (4.46597pt too wide) detected at line 104
 \OML/ntxmi/m/it/10 P[] \U/ntxmia/m/it/10 = \T1/qtm/m/n/10 2 [][] [] [][] \OMS/n
 txsy/m/n/10 <[]\OML/ntxmi/m/it/10 e [][]
  []
 
 
-Overfull \hbox (9.47977pt too wide) in paragraph at lines 86--93
+Overfull \hbox (9.47977pt too wide) in paragraph at lines 111--118
  [] 
  []
 
-[1{C:/Users/hday/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
- <E:/GitHub/IPAC2015/MKIImpedancePaper/MKICrossSectionYZ.pdf> <E:/GitHub/IPAC20
-15/MKIImpedancePaper/beamScreenCrossSectionLabelled.pdf>]
-Extra height:85.0pt when 435.65015pt
-Extra height:85.0pt when 436.65015pt
-Extra height:85.0pt when 437.65015pt
-Extra height:85.0pt when 438.65015pt
-Extra height:70.0pt when 439.65015pt
-Extra height:70.0pt when 440.65015pt
-Extra height:70.0pt when 441.65015pt
-Extra height:70.0pt when 442.65015pt
-Extra height:70.0pt when 443.65015pt
-Extra height:70.0pt when 444.65015pt
-Extra height:70.0pt when 445.65015pt
-Extra height:70.0pt when 446.65015pt
-Extra height:70.0pt when 447.65015pt
-Extra height:70.0pt when 448.65015pt
-Extra height:70.0pt when 449.65015pt
-Extra height:70.0pt when 450.65015pt
-Extra height:70.0pt when 451.65015pt
-Extra height:70.0pt when 452.65015pt
-Extra height:70.0pt when 453.65015pt
-Extra height:70.0pt when 454.65015pt
-Extra height:70.0pt when 455.65015pt
-Extra height:70.0pt when 456.65015pt
-Extra height:70.0pt when 457.65015pt
-Extra height:70.0pt when 458.65015pt
-Extra height:70.0pt when 459.65015pt
-Extra height:70.0pt when 460.65015pt
-Extra height:70.0pt when 461.65015pt
-Extra height:70.0pt when 462.65015pt
-Extra height:70.0pt when 463.65015pt
-Extra height:70.0pt when 464.65015pt
-Extra height:70.0pt when 465.65015pt
-Extra height:70.0pt when 466.65015pt
-Extra height:0.0pt when 467.65015pt
-(2)Left:467.65015pt Right:396.09993pt Output:467.65015pt
+[2 <E:/GitHub/IPAC2015/MKIImpedancePaper/beamScreenCrossSectionLabelled.pdf> <E
+:/GitHub/IPAC2015/MKIImpedancePaper/compMeasurementGating.pdf>]
+Extra height:0.0pt when 224.04996pt
+(2)Left:224.04996pt Right:217.0pt Output:224.04996pt
 - LAST -
 Extra skip:0.0pt
-Left:467.65015pt
-Right:396.09993pt
-Output:467.65015pt
+Left:224.04996pt
+Right:217.0pt
+Output:224.04996pt
+ [3
 
-Underfull \vbox (badness 3128) has occurred while \output is active []
+]
+(E:\GitHub\IPAC2015\MKIImpedancePaper\ID2968MKIHeating.aux)
 
- [2 <E:/GitHub/IPAC2015/MKIImpedancePaper/compMeasurementGating.pdf>]
-(E:\GitHub\IPAC2015\MKIImpedancePaper\ID2968MKIHeating.aux) ) 
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 16939 strings out of 493921
- 326568 string characters out of 3144879
- 375641 words of memory out of 3000000
- 19823 multiletter control sequences out of 15000+200000
- 108275 words of font info for 185 fonts, out of 3000000 for 9000
+ 16966 strings out of 493921
+ 326925 string characters out of 3144879
+ 368688 words of memory out of 3000000
+ 19831 multiletter control sequences out of 15000+200000
+ 112099 words of font info for 195 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  46i,11n,73p,10471b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.
-9/fonts/enc/dvips/fontname/8r.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/
-dvips/tex-gyre/q-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/l
-m/lmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtmb
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtmr.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/newtx/rntxmi7.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/txfonts/txex.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/txfonts/txsy.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/newtx/txsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/n
-ewtx/txsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ID2968MKIHeating.pdf (2 pages, 413254 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program Files (x86)/M
+iKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/tex-gyre/qtmb.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+tex-gyre/qtmr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyr
+e/qtmri.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/newtx/rntxmi7
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txex.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/newtx/txsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/newtx/txsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on ID2968MKIHeating.pdf (3 pages, 447040 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 170 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 29712 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 30229 words of extra memory for PDF output out of 35830 (max. 10000000)
 

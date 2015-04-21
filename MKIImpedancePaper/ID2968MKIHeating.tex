@@ -43,7 +43,7 @@ Past work on the beam screen of the MKI has focused on improving the screening o
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.5\textwidth]{beamScreenCrossSectionLabelled.pdf}
+\includegraphics[width=0.5\textwidth]{sliceLabelled.pdf}
 \caption{Cross-section of the beam screen of the MKI. Conductors circled in red weren't in place prior to long-shutdown 1}
 \label{fig:LengthWiseSlice}
 \end{center}
@@ -59,7 +59,21 @@ A revised beam screen was designed that reduced the electric field strength duri
 \end{center}
 \end{figure}
 
-Previous work had showed [cite relevant] that the beam coupling impedance the MKI with a well shielded ferrite yoke is resonant in nature, with the frequency of the resonances determined by the length of the overlap
+Previous work had showed [cite relevant] that the beam coupling impedance the MKI with a well shielded ferrite yoke is resonant in nature, with the frequency of the resonances determined by the length of the overlap between the screen conductors on the internal face of the ceramic tube and the metal cylinder on the outside at the capacitively-coupled end of the tube, giving the form
+
+\begin{equation}
+f_{res} = \frac{nc}{2\sqrt{\epsilon_{r}}\left( L_{overlap}+ \delta_{fringe} \right)}
+\end{equation}
+
+where n is an integer, $\epsilon_{r}$ the relative permitivitty of the ceramic tube, $L_{overlap}$ the length of the overlap between the screen conductors and the external cylinder and $\delta_{fringe}$ the influence of the fringe fields on the effective length. For the post-LS1 design, $L_{overlap} = 117mm$ If we consider the general formula for power loss;
+
+\begin{equation}
+P_{loss} = 2 \left( f_{0} e M  N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p M \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p M \omega_{0} \right) \right]
+\label{eqn:powLoss}
+\end{equation}
+
+where $f_{0}$ is the revolution frequnecy, $\omega_{0} = 2\pi f_{0}$, $e$ is the charge of an electron, $N_{b}$ is the number of particles per bunch, $M$ is the number of bunches in the machine, $\lambda (\omega)$ is the beam current spectrum, and $\Re{}e(Z_{\parallel}(\omega))$ is the real component of the longitudinal beam coupling impedance; we can see that we can reduce the power loss by changing the beam profile (in this case limited as the beam profile is determined by the requirements for the physics experiments) or the beam impedance profile may be modified. Due to the approximately gaussian roll off of the beam current spectrum at higher frequencies it can be seen that shortening $L_{pverlap}$ would result in the resonant frequency increasing. This approach was thus chosen due to the relative simplicity of the change (no major redesign of the magnet would be foreseen in this case) and the system being well proven for both HV and beam impedance factors.
+
 
 \begin{figure}
 \begin{center}
