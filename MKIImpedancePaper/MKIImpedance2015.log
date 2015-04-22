@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  21 APR 2015 19:31
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  21 APR 2015 19:32
 entering extended mode
-**E:/GitHub/IPAC2015/MKIImpedancePaper/ID2968MKIHeating.tex
-(E:/GitHub/IPAC2015/MKIImpedancePaper/ID2968MKIHeating.tex
+**E:/GitHub/IPAC2015/MKIImpedancePaper/MKIImpedance2015.tex
+(E:/GitHub/IPAC2015/MKIImpedancePaper/MKIImpedance2015.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -1176,7 +1176,7 @@ File: csquotes.cfg
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-(E:\GitHub\IPAC2015\MKIImpedancePaper\ID2968MKIHeating.aux)
+(E:\GitHub\IPAC2015\MKIImpedancePaper\MKIImpedance2015.aux)
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 15.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 15
 .
@@ -1449,7 +1449,7 @@ Right:154.0pt
 Output:154.0pt
  [4
 
-] (E:\GitHub\IPAC2015\MKIImpedancePaper\ID2968MKIHeating.aux)
+] (E:\GitHub\IPAC2015\MKIImpedancePaper\MKIImpedance2015.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1477,7 +1477,7 @@ KTeX 2.9/fonts/type1/public/newtx/txsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/newtx/txsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on ID2968MKIHeating.pdf (4 pages, 566170 bytes).
+Output written on MKIImpedance2015.pdf (4 pages, 566170 bytes).
 PDF statistics:
  325 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
