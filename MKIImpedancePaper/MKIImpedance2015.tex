@@ -25,29 +25,16 @@ The LHC injection kicker magnets (MKIs) experienced strong heating during the fi
 
 \section{Introduction}
 
-The injection kicker magnets (MKIs) are fast pulsed transmission line kicker magnets, which have a ceramic tube inserted into the ferrite yoke: this supports a number of screen conductors, designed to provide a good conducting path for the image currents of the circulating beam. One end of the screen is directly connected to the beam pipe whilst the other is capactively coupled to the beam pipe in order to preserve the fast field rise time of the magnet, shown in Fig.~\ref{fig:mkiStruct}. Beam-induced heating due to high stored beam current lead to high temperatures being observed in devices in the LHC, including the MKIs \cite{mki-heatingTemp}. In the MKI this lead to problems as the temperature of the ferrite yoke rises above it's Curie temperature necessitating 2-3 hours waiting time between fills. Substantial work has been done reduce the power deposited by reducing the beam coupling impedance of the device - a revised beam screen was implemented on all magnets during long shutdown 1 (LS1) which is predicted to reduce the power loss to a degree where excessive heating will not be a problem with nominal LHC beam parameters \cite{mkiImp2014}. 
+The injection kicker magnets (MKIs) are fast pulsed transmission line kicker magnets, which have a ceramic tube inserted into the ferrite yoke: this supports a number of screen conductors, designed to provide a good conducting path for the image currents of the circulating beam. One end of the screen is directly connected to the beam pipe whilst the other is capactively coupled to the beam pipe in order to preserve the fast field rise time of the magnet. Beam-induced heating due to high stored beam current lead to high temperatures being observed in devices in the LHC, including the MKIs \cite{mki-heatingTemp}. In the MKI this lead to problems as the temperature of the ferrite yoke rises above it's Curie temperature necessitating 2-3 hours waiting time between fills. Substantial work has been done reduce the power deposited by reducing the beam coupling impedance of the device - a revised beam screen was implemented on all magnets during long shutdown 1 (LS1) which is predicted to reduce the power loss to a degree where excessive heating will not be a problem with nominal LHC beam parameters \cite{mkiImp2014}. 
 
 The planned high luminousity upgrade of the LHC (called HL-LHC) will involve a doubling of the beam current in the LHC under current nominal parameters \cite{HLLHCPara} - this is predicted to lead to again a four fold increase in the power loss to all devices in the LHC unless counter-measures are taken. To this end further improvements to the beam screen have been studied in order to reduce the power loss into the magnet whilst continuing to ensure good high voltage (HV) performance during pulsing and good field quality for operation.
 
 Building on this success a new design has been proposed to satisfy competing needs of low rates of electrical breakdown, during magnet pulsing, and a low beam coupling impedance to reduce the power lost into the structure by wakefields; in addition to meeting strict requirements for magnet operation for field rise time and flat top ripple \cite{mkiUpgrade}. 
 
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{MKICrossSectionYZ.pdf}
-\caption{Structure of the injection kicker magnets.}
-\label{fig:mkiStruct}
-\end{figure}
 
 \section{Changes to Beam Screen Design}
 
-Past work on the beam screen of the MKI has focused on improving the screening of the ferrite yoke from the beam by increasing the number of screen conductors in the beam screen to the full compliment of 24 - during the first run of the LHC only 15 screen conductors were in place, positioned closest to the return busbar (see Fig.~\ref{fig:LengthWiseSlice}), due to issues with surface flashover during magnet pulsing \cite{mki-ElecBreakdown}. 
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.25\textwidth]{sliceLabelled.pdf}
-\caption{Cross-section of the beam screen of the MKI. Conductors circled in red weren't in place prior to long-shutdown 1}
-\label{fig:LengthWiseSlice}
-\end{center}
-\end{figure}
+Past work on the beam screen of the MKI has focused on improving the screening of the ferrite yoke from the beam by increasing the number of screen conductors in the beam screen to the full compliment of 24 - during the first run of the LHC only 15 screen conductors were in place, positioned closest to the return busbar (see Fig.~\ref{fig:BeamScreenPostLS1}), due to issues with surface flashover during magnet pulsing \cite{mki-ElecBreakdown}. 
 
 A revised beam screen was designed that reduced the electric field strength during magnet pulsing sufficiently to allow 24 conductors to be inserted into the screen for post-LS1 \cite{mkiUpgrade}, shown in Fig.~\ref{fig:BeamScreenPostLS1}. This is predicted to see a substantial reduction in the power loss in the MKIs post LS1, by a factor of almost 2 (see Table~\ref{tab:PowLoss}), even accounting for the increased beam current with the change to 25ns bunch separation. However this is not expected to be sufficient for HL-LHC operation, which will see a much higher beam current than nominal LHC operation (see Table~\ref{tab:beamPara}) and is predicted to see power losses comparable to that which caused a faulty magnet to heat beyond it's point during early operation of the LHC \cite{mkiImp2014}, thus necessitating further modifications.
 
@@ -106,7 +93,7 @@ In addition to the reduced overlap length, further alterations to the beam scree
 
 \begin{figure}
 \begin{center}
-%\includegraphics[width=0.5\textwidth]{beamScreenCrossSectionLabelled.pdf}
+\includegraphics[width=0.5\textwidth]{HLLHCLayout.pdf}
 \caption{Cross-section of the proposed beam screen for the MKI under HL-LHC conditions.}
 \label{fig:BeamScreenHLLHC}
 \end{center}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  21 APR 2015 19:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  22 APR 2015 16:39
 entering extended mode
 **E:/GitHub/IPAC2015/MKIImpedancePaper/MKIImpedance2015.tex
 (E:/GitHub/IPAC2015/MKIImpedancePaper/MKIImpedance2015.tex
@@ -1338,128 +1338,134 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<MKICrossSectionYZ.pdf, id=1, 853.7496pt x 341.47577pt>
-File: MKICrossSectionYZ.pdf Graphic file (type pdf)
-
-<use MKICrossSectionYZ.pdf>
-Package pdftex.def Info: MKICrossSectionYZ.pdf used on input line 35.
-(pdftex.def)             Requested size: 241.84842pt x 96.73282pt.
-
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 35--36
-[][] 
- []
-
-<sliceLabelled.pdf, id=2, 426.8748pt x 313.04956pt>
-File: sliceLabelled.pdf Graphic file (type pdf)
- <use sliceLabelled.pdf>
-Package pdftex.def Info: sliceLabelled.pdf used on input line 46.
-(pdftex.def)             Requested size: 120.92421pt x 88.68027pt.
-
-<beamScreenCrossSectionLabelled.pdf, id=3, 512.1534pt x 284.62335pt>
+<beamScreenCrossSectionLabelled.pdf, id=1, 455.30101pt x 284.62335pt>
 File: beamScreenCrossSectionLabelled.pdf Graphic file (type pdf)
 
 <use beamScreenCrossSectionLabelled.pdf>
 Package pdftex.def Info: beamScreenCrossSectionLabelled.pdf used on input line 
-56.
-(pdftex.def)             Requested size: 241.84842pt x 134.40706pt.
+43.
+(pdftex.def)             Requested size: 241.84842pt x 151.18407pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 56--57
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 43--44
  [] 
  []
 
 
-Overfull \hbox (9.47977pt too wide) in paragraph at lines 80--87
+Overfull \hbox (9.47977pt too wide) in paragraph at lines 67--74
  [] 
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 90--91
+Underfull \hbox (badness 1259) in paragraph at lines 77--78
 []\T1/qtm/m/n/10 (+20) Previous work had showed that the beam cou-pling
  []
 
 [1{C:/Users/hday/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <E:/GitHub/IPAC2015/MKIImpedancePaper/MKICrossSectionYZ.pdf> <E:/GitHub/IPAC20
-15/MKIImpedancePaper/sliceLabelled.pdf>]
-Overfull \hbox (4.46597pt too wide) detected at line 101
+ <E:/GitHub/IPAC2015/MKIImpedancePaper/beamScreenCrossSectionLabelled.pdf>]
+Overfull \hbox (4.46597pt too wide) detected at line 88
 \OML/ntxmi/m/it/10 P[] \U/ntxmia/m/it/10 = \T1/qtm/m/n/10 2 [][] [] [][] \OMS/n
 txsy/m/n/10 <[]\OML/ntxmi/m/it/10 e [][]
  []
 
+<HLLHCLayout.pdf, id=22, 455.30101pt x 284.62335pt>
+File: HLLHCLayout.pdf Graphic file (type pdf)
+ <use HLLHCLayout.pdf>
+Package pdftex.def Info: HLLHCLayout.pdf used on input line 96.
+(pdftex.def)             Requested size: 241.84842pt x 151.18407pt.
+
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 96--97
+ [] 
+ []
+
 
 LaTeX Warning: Reference `fig:differentEndArrangement' on page 2 undefined on i
-nput line 115.
+nput line 102.
 
-<differentScreenSpacings.pdf, id=33, 889.82437pt x 345.08923pt>
+<differentScreenSpacings.pdf, id=23, 889.82437pt x 345.08923pt>
 File: differentScreenSpacings.pdf Graphic file (type pdf)
 
 <use differentScreenSpacings.pdf>
-Package pdftex.def Info: differentScreenSpacings.pdf used on input line 119.
+Package pdftex.def Info: differentScreenSpacings.pdf used on input line 106.
 (pdftex.def)             Requested size: 241.84842pt x 93.79141pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 119--120
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 106--107
  [] 
  []
 
-[2 <E:/GitHub/IPAC2015/MKIImpedancePaper/beamScreenCrossSectionLabelled.pdf>]
-<powLossLowRes.pdf, id=55, 847.36577pt x 357.7365pt>
+
+Underfull \vbox (badness 2707) has occurred while \output is active []
+
+ [2 <E:/GitHub/IPAC2015/MKIImpedancePaper/HLLHCLayout.pdf> <E:/GitHub/IPAC2015/
+MKIImpedancePaper/differentScreenSpacings.pdf>]
+<powLossLowRes.pdf, id=116, 847.36577pt x 357.7365pt>
 File: powLossLowRes.pdf Graphic file (type pdf)
  <use powLossLowRes.pdf>
-Package pdftex.def Info: powLossLowRes.pdf used on input line 131.
+Package pdftex.def Info: powLossLowRes.pdf used on input line 118.
 (pdftex.def)             Requested size: 241.84842pt x 102.09787pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 131--132
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 118--119
  [] 
  []
 
-<simMeasGatingOverlap.pdf, id=56, 1123.79848pt x 317.98799pt>
+<simMeasGatingOverlap.pdf, id=117, 1123.79848pt x 317.98799pt>
 File: simMeasGatingOverlap.pdf Graphic file (type pdf)
 
 <use simMeasGatingOverlap.pdf>
-Package pdftex.def Info: simMeasGatingOverlap.pdf used on input line 145.
+Package pdftex.def Info: simMeasGatingOverlap.pdf used on input line 132.
 (pdftex.def)             Requested size: 241.84842pt x 68.42915pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 145--146
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 132--133
  [] 
  []
 
-<heatingOverlapFull.pdf, id=57, 824.78139pt x 345.99263pt>
+<heatingOverlapFull.pdf, id=118, 824.78139pt x 345.99263pt>
 File: heatingOverlapFull.pdf Graphic file (type pdf)
 
 <use heatingOverlapFull.pdf>
-Package pdftex.def Info: heatingOverlapFull.pdf used on input line 155.
+Package pdftex.def Info: heatingOverlapFull.pdf used on input line 142.
 (pdftex.def)             Requested size: 241.84842pt x 101.45451pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 155--156
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 142--143
  [] 
  []
 
-[3 <E:/GitHub/IPAC2015/MKIImpedancePaper/differentScreenSpacings.pdf> <E:/GitHu
-b/IPAC2015/MKIImpedancePaper/powLossLowRes.pdf> <E:/GitHub/IPAC2015/MKIImpedanc
-ePaper/simMeasGatingOverlap.pdf> <E:/GitHub/IPAC2015/MKIImpedancePaper/heatingO
-verlapFull.pdf>]
-Extra height:0.0pt when 146.74997pt
-(2)Left:146.74997pt Right:154.0pt Output:146.74997pt
-(2)Left:154.0pt Right:154.0pt Output:154.0pt
+[3 <E:/GitHub/IPAC2015/MKIImpedancePaper/powLossLowRes.pdf> <E:/GitHub/IPAC2015
+/MKIImpedancePaper/simMeasGatingOverlap.pdf> <E:/GitHub/IPAC2015/MKIImpedancePa
+per/heatingOverlapFull.pdf>]
+Underfull \vbox (badness 7667) has occurred while \output is active []
+
+Extra height:10.0pt when 90.0pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 91.0pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 92.0pt
+Extra height:0.0pt when 93.0pt
+(2)Left:93.0pt Right:80.0pt Output:93.0pt
 - LAST -
 Extra skip:0.0pt
-Left:154.0pt
-Right:154.0pt
-Output:154.0pt
+Left:93.0pt
+Right:80.0pt
+Output:93.0pt
  [4
 
-] (E:\GitHub\IPAC2015\MKIImpedancePaper\MKIImpedance2015.aux)
+]
+(E:\GitHub\IPAC2015\MKIImpedancePaper\MKIImpedance2015.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16994 strings out of 493921
- 327487 string characters out of 3144879
- 370673 words of memory out of 3000000
- 19846 multiletter control sequences out of 15000+200000
- 112629 words of font info for 200 fonts, out of 3000000 for 9000
+ 16989 strings out of 493921
+ 327335 string characters out of 3144879
+ 370657 words of memory out of 3000000
+ 19840 multiletter control sequences out of 15000+200000
+ 112735 words of font info for 201 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  46i,11n,73p,10471b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
@@ -1477,9 +1483,9 @@ KTeX 2.9/fonts/type1/public/newtx/txsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/newtx/txsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on MKIImpedance2015.pdf (4 pages, 566170 bytes).
+Output written on MKIImpedance2015.pdf (4 pages, 646982 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
+ 315 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 30244 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 30239 words of extra memory for PDF output out of 35830 (max. 10000000)
 
