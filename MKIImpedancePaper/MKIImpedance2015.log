@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  22 APR 2015 16:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  24 APR 2015 15:42
 entering extended mode
 **E:/GitHub/IPAC2015/MKIImpedancePaper/MKIImpedance2015.tex
 (E:/GitHub/IPAC2015/MKIImpedancePaper/MKIImpedance2015.tex
@@ -1369,7 +1369,10 @@ Overfull \hbox (4.46597pt too wide) detected at line 88
 txsy/m/n/10 <[]\OML/ntxmi/m/it/10 e [][]
  []
 
-<HLLHCLayout.pdf, id=22, 455.30101pt x 284.62335pt>
+
+LaTeX Warning: Citation `antoniosScreen' on page 2 undefined on input line 92.
+
+<HLLHCLayout.pdf, id=26, 455.30101pt x 284.62335pt>
 File: HLLHCLayout.pdf Graphic file (type pdf)
  <use HLLHCLayout.pdf>
 Package pdftex.def Info: HLLHCLayout.pdf used on input line 96.
@@ -1379,11 +1382,7 @@ Overfull \hbox (7.11319pt too wide) in paragraph at lines 96--97
  [] 
  []
 
-
-LaTeX Warning: Reference `fig:differentEndArrangement' on page 2 undefined on i
-nput line 102.
-
-<differentScreenSpacings.pdf, id=23, 889.82437pt x 345.08923pt>
+<differentScreenSpacings.pdf, id=27, 889.82437pt x 345.08923pt>
 File: differentScreenSpacings.pdf Graphic file (type pdf)
 
 <use differentScreenSpacings.pdf>
@@ -1394,12 +1393,8 @@ Overfull \hbox (7.11319pt too wide) in paragraph at lines 106--107
  [] 
  []
 
-
-Underfull \vbox (badness 2707) has occurred while \output is active []
-
- [2 <E:/GitHub/IPAC2015/MKIImpedancePaper/HLLHCLayout.pdf> <E:/GitHub/IPAC2015/
-MKIImpedancePaper/differentScreenSpacings.pdf>]
-<powLossLowRes.pdf, id=116, 847.36577pt x 357.7365pt>
+[2 <E:/GitHub/IPAC2015/MKIImpedancePaper/HLLHCLayout.pdf>]
+<powLossLowRes.pdf, id=45, 847.36577pt x 357.7365pt>
 File: powLossLowRes.pdf Graphic file (type pdf)
  <use powLossLowRes.pdf>
 Package pdftex.def Info: powLossLowRes.pdf used on input line 118.
@@ -1409,7 +1404,7 @@ Overfull \hbox (7.11319pt too wide) in paragraph at lines 118--119
  [] 
  []
 
-<simMeasGatingOverlap.pdf, id=117, 1123.79848pt x 317.98799pt>
+<simMeasGatingOverlap.pdf, id=46, 1123.79848pt x 317.98799pt>
 File: simMeasGatingOverlap.pdf Graphic file (type pdf)
 
 <use simMeasGatingOverlap.pdf>
@@ -1420,7 +1415,7 @@ Overfull \hbox (7.11319pt too wide) in paragraph at lines 132--133
  [] 
  []
 
-<heatingOverlapFull.pdf, id=118, 824.78139pt x 345.99263pt>
+<heatingOverlapFull.pdf, id=47, 824.78139pt x 345.99263pt>
 File: heatingOverlapFull.pdf Graphic file (type pdf)
 
 <use heatingOverlapFull.pdf>
@@ -1431,41 +1426,31 @@ Overfull \hbox (7.11319pt too wide) in paragraph at lines 142--143
  [] 
  []
 
-[3 <E:/GitHub/IPAC2015/MKIImpedancePaper/powLossLowRes.pdf> <E:/GitHub/IPAC2015
-/MKIImpedancePaper/simMeasGatingOverlap.pdf> <E:/GitHub/IPAC2015/MKIImpedancePa
-per/heatingOverlapFull.pdf>]
-Underfull \vbox (badness 7667) has occurred while \output is active []
-
-Extra height:10.0pt when 90.0pt
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Extra height:10.0pt when 91.0pt
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Extra height:10.0pt when 92.0pt
-Extra height:0.0pt when 93.0pt
-(2)Left:93.0pt Right:80.0pt Output:93.0pt
+[3 <E:/GitHub/IPAC2015/MKIImpedancePaper/differentScreenSpacings.pdf> <E:/GitHu
+b/IPAC2015/MKIImpedancePaper/powLossLowRes.pdf> <E:/GitHub/IPAC2015/MKIImpedanc
+ePaper/simMeasGatingOverlap.pdf> <E:/GitHub/IPAC2015/MKIImpedancePaper/heatingO
+verlapFull.pdf>]
+Extra height:0.0pt when 161.73097pt
+(2)Left:161.73097pt Right:168.96199pt Output:161.73097pt
+(2)Left:168.96199pt Right:168.96199pt Output:168.96199pt
 - LAST -
 Extra skip:0.0pt
-Left:93.0pt
-Right:80.0pt
-Output:93.0pt
+Left:168.96199pt
+Right:168.96199pt
+Output:168.96199pt
  [4
 
-]
-(E:\GitHub\IPAC2015\MKIImpedancePaper\MKIImpedance2015.aux)
+] (E:\GitHub\IPAC2015\MKIImpedancePaper\MKIImpedance2015.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16989 strings out of 493921
- 327335 string characters out of 3144879
- 370657 words of memory out of 3000000
- 19840 multiletter control sequences out of 15000+200000
- 112735 words of font info for 201 fonts, out of 3000000 for 9000
+ 16995 strings out of 493921
+ 327390 string characters out of 3144879
+ 371664 words of memory out of 3000000
+ 19842 multiletter control sequences out of 15000+200000
+ 112947 words of font info for 203 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  46i,11n,73p,10471b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
@@ -1483,7 +1468,7 @@ KTeX 2.9/fonts/type1/public/newtx/txsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/newtx/txsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on MKIImpedance2015.pdf (4 pages, 646982 bytes).
+Output written on MKIImpedance2015.pdf (4 pages, 648247 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
