@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  12 JUN 2014 12:07
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  27 APR 2015 15:39
 entering extended mode
-**E:/GitHub/IPAC2014/MKIImpedancePoster/IPACMKIHeatingPoster.tex
-(E:/GitHub/IPAC2014/MKIImpedancePoster/IPACMKIHeatingPoster.tex
+**E:/GitHub/IPAC2015/MKIImpedancePoster/IPACMKIHeatingPoster.tex
+(E:/GitHub/IPAC2015/MKIImpedancePoster/IPACMKIHeatingPoster.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -715,7 +715,7 @@ Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
 terthemedefault.sty"
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
-(E:\GitHub\IPAC2014\MKIImpedancePoster\beamerthemeI6pd2_hugo.sty
+(E:\GitHub\IPAC2015\MKIImpedancePoster\beamerthemeI6pd2_hugo.sty
 
 LaTeX Warning: You have requested package `beamerthemeI6pd2_hugo',
                but the package provides `beamerthemeI6pd2'.
@@ -724,7 +724,7 @@ Package: beamerthemeI6pd2
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen185
 )
-(E:\GitHub\IPAC2014\MKIImpedancePoster\tangocolors.sty))
+(E:\GitHub\IPAC2015\MKIImpedancePoster\tangocolors.sty))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
@@ -1523,7 +1523,7 @@ FP debug: upn: result      "187.60"
 FP debug: upn: +++ result of upn-expression is "(187.60)"
 ))
 \columnheight=\skip65
- (E:\GitHub\IPAC2014\MKIImpedancePoster\IPACMKIHeatingPoster.aux)
+ (E:\GitHub\IPAC2015\MKIImpedancePoster\IPACMKIHeatingPoster.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
@@ -1602,8 +1602,8 @@ LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
 
-(E:\GitHub\IPAC2014\MKIImpedancePoster\IPACMKIHeatingPoster.out)
-(E:\GitHub\IPAC2014\MKIImpedancePoster\IPACMKIHeatingPoster.out)
+(E:\GitHub\IPAC2015\MKIImpedancePoster\IPACMKIHeatingPoster.out)
+(E:\GitHub\IPAC2015\MKIImpedancePoster\IPACMKIHeatingPoster.out)
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 40.
@@ -1676,120 +1676,130 @@ LaTeX Info: Redefining \includegraphics on input line 40.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(E:\GitHub\IPAC2014\MKIImpedancePoster\IPACMKIHeatingPoster.nav)
+(E:\GitHub\IPAC2015\MKIImpedancePoster\IPACMKIHeatingPoster.nav)
 <figures/cern_logo_white.png, id=12, 493.845pt x 478.03593pt>
 File: figures/cern_logo_white.png Graphic file (type png)
 
 <use figures/cern_logo_white.png>
 Package pdftex.def Info: figures/cern_logo_white.png used on input line 40.
-(pdftex.def)             Requested size: 222.10008pt x 214.99385pt.
+(pdftex.def)             Requested size: 238.90393pt x 231.24901pt.
 
-<LOGO-60.jpg, id=13, 434.1018pt x 375.3222pt>
-File: LOGO-60.jpg Graphic file (type jpg)
- <use LOGO-60.jpg>
-Package pdftex.def Info: LOGO-60.jpg used on input line 40.
-(pdftex.def)             Requested size: 248.66602pt x 214.99385pt.
+<figures/CI_logo_large.jpg, id=13, 543.02875pt x 307.1475pt>
+File: figures/CI_logo_large.jpg Graphic file (type jpg)
 
-Overfull \hbox (112.44666pt too wide) in paragraph at lines 40--40
- [][] 
- []
+<use figures/CI_logo_large.jpg>
+Package pdftex.def Info: figures/CI_logo_large.jpg used on input line 40.
+(pdftex.def)             Requested size: 250.82251pt x 141.87071pt.
 
+<figures/manchester_logo.jpg, id=14, 228.3732pt x 97.3236pt>
+File: figures/manchester_logo.jpg Graphic file (type jpg)
 
-Overfull \hbox (229.75003pt too wide) detected at line 40
-[][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
-][] [][][][][][][][][] [][][][][][][] 
- []
+<use figures/manchester_logo.jpg>
+Package pdftex.def Info: figures/manchester_logo.jpg used on input line 40.
+(pdftex.def)             Requested size: 250.82251pt x 106.89587pt.
 
-<introductionPicture.pdf, id=14, 1565.12733pt x 1422.87592pt>
+<introductionPicture.pdf, id=15, 1565.12733pt x 1422.87592pt>
 File: introductionPicture.pdf Graphic file (type pdf)
 
 <use introductionPicture.pdf>
-Package pdftex.def Info: introductionPicture.pdf used on input line 195.
+Package pdftex.def Info: introductionPicture.pdf used on input line 198.
 (pdftex.def)             Requested size: 1085.54912pt x 986.95274pt.
 
-Overfull \hbox (47.74765pt too wide) in paragraph at lines 195--195
+Overfull \hbox (47.74765pt too wide) in paragraph at lines 198--198
  [][]  
  []
 
-<beamScreen.pdf, id=15, 1138.2525pt x 711.37767pt>
-File: beamScreen.pdf Graphic file (type pdf)
- <use beamScreen.pdf>
-Package pdftex.def Info: beamScreen.pdf used on input line 195.
-(pdftex.def)             Requested size: 1085.54912pt x 678.50778pt.
-LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 195.
+<beamScreenCrossSectionLabelled.pdf, id=16, 455.30101pt x 284.62335pt>
+File: beamScreenCrossSectionLabelled.pdf Graphic file (type pdf)
 
+<use beamScreenCrossSectionLabelled.pdf>
+Package pdftex.def Info: beamScreenCrossSectionLabelled.pdf used on input line 
+198.
+(pdftex.def)             Requested size: 597.05531pt x 373.27625pt.
+
+<HLLHCLayout.pdf, id=17, 455.30101pt x 284.62335pt>
+File: HLLHCLayout.pdf Graphic file (type pdf)
+ <use HLLHCLayout.pdf>
+Package pdftex.def Info: HLLHCLayout.pdf used on input line 198.
+(pdftex.def)             Requested size: 597.05531pt x 373.27625pt.
+
+Overfull \hbox (130.39726pt too wide) in paragraph at lines 198--198
+ [][] 
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 198.
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 195.
+(Font)              using `OT1/cmss/bx/n' instead on input line 198.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <29.04> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 195.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 198.
 
 
 
-Overfull \hbox (22.491pt too wide) in paragraph at lines 195--195
+Overfull \hbox (22.491pt too wide) in paragraph at lines 198--198
 [][] 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 195.
-<TUPRI030f4.pdf, id=16, 851.88264pt x 322.50487pt>
+LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 198.
+<TUPRI030f4.pdf, id=18, 851.88264pt x 322.50487pt>
 File: TUPRI030f4.pdf Graphic file (type pdf)
  <use TUPRI030f4.pdf>
-Package pdftex.def Info: TUPRI030f4.pdf used on input line 195.
+Package pdftex.def Info: TUPRI030f4.pdf used on input line 198.
 (pdftex.def)             Requested size: 488.49379pt x 184.93199pt.
 
-<TUPRI030f3.pdf, id=17, 819.36111pt x 345.08923pt>
+<TUPRI030f3.pdf, id=19, 819.36111pt x 345.08923pt>
 File: TUPRI030f3.pdf Graphic file (type pdf)
  <use TUPRI030f3.pdf>
-Package pdftex.def Info: TUPRI030f3.pdf used on input line 195.
+Package pdftex.def Info: TUPRI030f3.pdf used on input line 198.
 (pdftex.def)             Requested size: 488.49379pt x 205.73872pt.
 
-<TUPRI030f6.pdf, id=22, 859.10965pt x 343.2825pt>
+<TUPRI030f6.pdf, id=24, 859.10965pt x 343.2825pt>
 File: TUPRI030f6.pdf Graphic file (type pdf)
  <use TUPRI030f6.pdf>
-Package pdftex.def Info: TUPRI030f6.pdf used on input line 195.
+Package pdftex.def Info: TUPRI030f6.pdf used on input line 198.
 (pdftex.def)             Requested size: 868.4426pt x 347.02686pt.
 
-Overfull \hbox (22.491pt too wide) in paragraph at lines 195--195
+Overfull \hbox (22.491pt too wide) in paragraph at lines 198--198
 [][] 
+ []
+
+
+Overfull \vbox (9.73415pt too high) detected at line 198
  []
 
 File: figures/cern_logo_white.png Graphic file (type png)
 <use figures/cern_logo_white.png>
-Package pdftex.def Info: figures/cern_logo_white.png used on input line 195.
-(pdftex.def)             Requested size: 222.10008pt x 214.99385pt.
-File: LOGO-60.jpg Graphic file (type jpg)
- <use LOGO-60.jpg>
-Package pdftex.def Info: LOGO-60.jpg used on input line 195.
-(pdftex.def)             Requested size: 248.66602pt x 214.99385pt.
+Package pdftex.def Info: figures/cern_logo_white.png used on input line 198.
+(pdftex.def)             Requested size: 238.90393pt x 231.24901pt.
+File: figures/CI_logo_large.jpg Graphic file (type jpg)
+ <use figures/CI_logo_large.jpg>
+Package pdftex.def Info: figures/CI_logo_large.jpg used on input line 198.
+(pdftex.def)             Requested size: 250.82251pt x 141.87071pt.
+File: figures/manchester_logo.jpg Graphic file (type jpg)
 
-Overfull \hbox (112.44666pt too wide) has occurred while \output is active
- [][] 
- []
+<use figures/manchester_logo.jpg>
+Package pdftex.def Info: figures/manchester_logo.jpg used on input line 198.
+(pdftex.def)             Requested size: 250.82251pt x 106.89587pt.
+ [1{C:/Users/hday/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-
-Overfull \hbox (229.75003pt too wide) has occurred while \output is active
-[][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
-][] [][][][][][][][][] [][][][][][][] 
- []
-
-[1{C:/Users/hday/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
- <E:/GitHub/IPAC2014/MKIImpedancePoster/figures/cern_logo_white.png> <E:/GitHub
-/IPAC2014/MKIImpedancePoster/LOGO-60.jpg> <E:/GitHub/IPAC2014/MKIImpedancePoste
-r/introductionPicture.pdf> <E:/GitHub/IPAC2014/MKIImpedancePoster/beamScreen.pd
-f> <E:/GitHub/IPAC2014/MKIImpedancePoster/TUPRI030f4.pdf> <E:/GitHub/IPAC2014/M
-KIImpedancePoster/TUPRI030f3.pdf> <E:/GitHub/IPAC2014/MKIImpedancePoster/TUPRI0
+ <E:/GitHub/IPAC2015/MKIImpedancePoster/figures/cern_logo_white.png> <E:/GitHub
+/IPAC2015/MKIImpedancePoster/figures/CI_logo_large.jpg> <E:/GitHub/IPAC2015/MKI
+ImpedancePoster/figures/manchester_logo.jpg> <E:/GitHub/IPAC2015/MKIImpedancePo
+ster/introductionPicture.pdf> <E:/GitHub/IPAC2015/MKIImpedancePoster/beamScreen
+CrossSectionLabelled.pdf> <E:/GitHub/IPAC2015/MKIImpedancePoster/HLLHCLayout.pd
+f> <E:/GitHub/IPAC2015/MKIImpedancePoster/TUPRI030f4.pdf> <E:/GitHub/IPAC2015/M
+KIImpedancePoster/TUPRI030f3.pdf> <E:/GitHub/IPAC2015/MKIImpedancePoster/TUPRI0
 30f6.pdf>]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
 
-(E:\GitHub\IPAC2014\MKIImpedancePoster\IPACMKIHeatingPoster.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 196.
+(E:\GitHub\IPAC2015\MKIImpedancePoster\IPACMKIHeatingPoster.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 199.
 
 
  *File List*
@@ -1941,32 +1951,35 @@ translator-months-dictionary-English.dict
 translator-numbers-dictionary-English.dict    
 translator-theorem-dictionary-English.dict    
 figures/cern_logo_white.png
- LOGO-60.jpg    Graphic file (type jpg)
+figures/CI_logo_large.jpg
+figures/manchester_logo.jpg
 introductionPicture.pdf    Graphic file (type pdf)
-beamScreen.pdf    Graphic file (type pdf)
+beamScreenCrossSectionLabelled.pdf    Graphic file (type pdf)
+HLLHCLayout.pdf    Graphic file (type pdf)
 TUPRI030f4.pdf    Graphic file (type pdf)
 TUPRI030f3.pdf    Graphic file (type pdf)
 TUPRI030f6.pdf    Graphic file (type pdf)
 figures/cern_logo_white.png
- LOGO-60.jpg    Graphic file (type jpg)
+figures/CI_logo_large.jpg
+figures/manchester_logo.jpg
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `IPACMKIHeatingPoster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 199.
  ) 
 Here is how much of TeX's memory you used:
- 18239 strings out of 493921
- 332773 string characters out of 3144879
- 501290 words of memory out of 3000000
- 21057 multiletter control sequences out of 15000+200000
+ 18251 strings out of 493921
+ 333219 string characters out of 3144879
+ 505185 words of memory out of 3000000
+ 21067 multiletter control sequences out of 15000+200000
  17061 words of font info for 68 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 49i,21n,82p,612b,1291s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,21n,82p,899b,1291s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{sub@fig:MKIsCondsNumber} has been referenced but 
 does not exist, replaced by a fixed one
 
@@ -1980,9 +1993,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi17.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on IPACMKIHeatingPoster.pdf (1 page, 1049032 bytes).
+Output written on IPACMKIHeatingPoster.pdf (1 page, 1147991 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
+ 330 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
