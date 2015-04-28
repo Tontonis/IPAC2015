@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  12 JUN 2014 09:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  28 APR 2015 13:38
 entering extended mode
-**E:/GitHub/IPAC2014/MKIImpedancePaper/toSubmit/TUPRI030.tex
-(E:/GitHub/IPAC2014/MKIImpedancePaper/toSubmit/TUPRI030.tex
+**E:/GitHub/IPAC2015/MKIImpedancePaper/toSubmit/MOPJE038.tex
+(E:/GitHub/IPAC2015/MKIImpedancePaper/toSubmit/MOPJE038.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(E:\GitHub\IPAC2014\MKIImpedancePaper\toSubmit\jacow.cls
+(E:\GitHub\IPAC2015\MKIImpedancePaper\toSubmit\jacow.cls
 Document Class: jacow 2014/04/14 Version 1.7
 ------------------------------------------------------------------------
 LaTeX2e Class file for Accelerator Conference publication for LaTeX2e users
@@ -1176,7 +1176,7 @@ File: csquotes.cfg
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-(E:\GitHub\IPAC2014\MKIImpedancePaper\toSubmit\TUPRI030.aux)
+(E:\GitHub\IPAC2015\MKIImpedancePaper\toSubmit\MOPJE038.aux)
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 15.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 15
 .
@@ -1338,134 +1338,117 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<TUPRI030f1.pdf, id=1, 853.7496pt x 341.47577pt>
-File: TUPRI030f1.pdf Graphic file (type pdf)
- <use TUPRI030f1.pdf>
-Package pdftex.def Info: TUPRI030f1.pdf used on input line 33.
-(pdftex.def)             Requested size: 241.84842pt x 96.73282pt.
+<MOPJE038f1.pdf, id=1, 455.30101pt x 284.62335pt>
+File: MOPJE038f1.pdf Graphic file (type pdf)
+ <use MOPJE038f1.pdf>
+Package pdftex.def Info: MOPJE038f1.pdf used on input line 43.
+(pdftex.def)             Requested size: 217.6621pt x 136.06609pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 33--34
-[][] 
+Overfull \hbox (9.47977pt too wide) in paragraph at lines 67--74
+ [] 
  []
 
-<TUPRI030f2.pdf, id=2, 512.1534pt x 284.62335pt>
-File: TUPRI030f2.pdf Graphic file (type pdf)
- <use TUPRI030f2.pdf>
-Package pdftex.def Info: TUPRI030f2.pdf used on input line 44.
-(pdftex.def)             Requested size: 241.84842pt x 134.40706pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 44--45
- [] 
+Underfull \hbox (badness 1259) in paragraph at lines 77--78
+[]\T1/qtm/m/n/10 (+20) Previous work had showed that the beam cou-pling
  []
 
 [1{C:/Users/hday/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <E:/GitHub/IPAC2014/MKIImpedancePaper/toSubmit/TUPRI030f1.pdf> <E:/GitHub/IPAC
-2014/MKIImpedancePaper/toSubmit/TUPRI030f2.pdf>]
-<TUPRI030f3.pdf, id=34, 805.81049pt x 327.92514pt>
-File: TUPRI030f3.pdf Graphic file (type pdf)
- <use TUPRI030f3.pdf>
-Package pdftex.def Info: TUPRI030f3.pdf used on input line 59.
-(pdftex.def)             Requested size: 241.84842pt x 98.41832pt.
-
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 59--60
-[][] 
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 60--60
-[]\T1/qtm/m/n/10 (+20) Figure 3: |The mea-sured lon-gi-tu-di-nal beam cou-pling
-
- []
-
-<TUPRI030f4.pdf, id=35, 851.88264pt x 322.50487pt>
-File: TUPRI030f4.pdf Graphic file (type pdf)
- <use TUPRI030f4.pdf>
-Package pdftex.def Info: TUPRI030f4.pdf used on input line 67.
-(pdftex.def)             Requested size: 241.84842pt x 91.5556pt.
-
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 67--68
-[][] 
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 68--68
-[]\T1/qtm/m/n/10 (+20) Figure 4: |The mea-sured lon-gi-tu-di-nal beam cou-pling
-
- []
-
-<TUPRI030f5.pdf, id=36, 851.88264pt x 336.05548pt>
-File: TUPRI030f5.pdf Graphic file (type pdf)
- <use TUPRI030f5.pdf>
-Package pdftex.def Info: TUPRI030f5.pdf used on input line 77.
-(pdftex.def)             Requested size: 241.84842pt x 95.40247pt.
-
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 77--78
-[][] 
- []
-
-
-Overfull \hbox (4.46597pt too wide) detected at line 89
+ <E:/GitHub/IPAC2015/MKIImpedancePaper/toSubmit/MOPJE038f1.pdf>]
+Overfull \hbox (4.46597pt too wide) detected at line 88
 \OML/ntxmi/m/it/10 P[] \U/ntxmia/m/it/10 = \T1/qtm/m/n/10 2 [][] [] [][] \OMS/n
 txsy/m/n/10 <[]\OML/ntxmi/m/it/10 e [][]
  []
 
-[2 <E:/GitHub/IPAC2014/MKIImpedancePaper/toSubmit/TUPRI030f3.pdf> <E:/GitHub/IP
-AC2014/MKIImpedancePaper/toSubmit/TUPRI030f4.pdf> <E:/GitHub/IPAC2014/MKIImpeda
-ncePaper/toSubmit/TUPRI030f5.pdf>]
-Overfull \hbox (9.47977pt too wide) in paragraph at lines 97--104
+
+LaTeX Warning: Citation `antoniosScreen' on page 2 undefined on input line 92.
+
+<MOPJE038f2.pdf, id=26, 455.30101pt x 284.62335pt>
+File: MOPJE038f2.pdf Graphic file (type pdf)
+ <use MOPJE038f2.pdf>
+Package pdftex.def Info: MOPJE038f2.pdf used on input line 96.
+(pdftex.def)             Requested size: 217.6621pt x 136.06609pt.
+
+<MOPJE038f3.pdf, id=27, 889.82437pt x 345.08923pt>
+File: MOPJE038f3.pdf Graphic file (type pdf)
+ <use MOPJE038f3.pdf>
+Package pdftex.def Info: MOPJE038f3.pdf used on input line 106.
+(pdftex.def)             Requested size: 241.84842pt x 93.79141pt.
+
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 106--107
  [] 
  []
 
-<TUPRI030f6.pdf, id=259, 859.10965pt x 343.2825pt>
-File: TUPRI030f6.pdf Graphic file (type pdf)
- <use TUPRI030f6.pdf>
-Package pdftex.def Info: TUPRI030f6.pdf used on input line 124.
-(pdftex.def)             Requested size: 241.84842pt x 96.63701pt.
+[2 <E:/GitHub/IPAC2015/MKIImpedancePaper/toSubmit/MOPJE038f2.pdf>]
+<MOPJE038f4.pdf, id=45, 847.36577pt x 357.7365pt>
+File: MOPJE038f4.pdf Graphic file (type pdf)
+ <use MOPJE038f4.pdf>
+Package pdftex.def Info: MOPJE038f4.pdf used on input line 118.
+(pdftex.def)             Requested size: 241.84842pt x 102.09787pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 124--125
-[][] 
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 118--119
+ [] 
  []
 
-Extra height:0.0pt when 688.1858pt
-(2)Left:688.1858pt Right:696.6899pt Output:688.1858pt
-(2)Left:696.6899pt Right:696.6899pt Output:696.6899pt
+<MOPJE038f5.pdf, id=46, 1123.79848pt x 317.98799pt>
+File: MOPJE038f5.pdf Graphic file (type pdf)
+ <use MOPJE038f5.pdf>
+Package pdftex.def Info: MOPJE038f5.pdf used on input line 132.
+(pdftex.def)             Requested size: 217.6621pt x 61.58769pt.
+
+<MOPJE038f6.pdf, id=47, 824.78139pt x 345.99263pt>
+File: MOPJE038f6.pdf Graphic file (type pdf)
+ <use MOPJE038f6.pdf>
+Package pdftex.def Info: MOPJE038f6.pdf used on input line 142.
+(pdftex.def)             Requested size: 217.6621pt x 91.30748pt.
+
+[3 <E:/GitHub/IPAC2015/MKIImpedancePaper/toSubmit/MOPJE038f3.pdf> <E:/GitHub/IP
+AC2015/MKIImpedancePaper/toSubmit/MOPJE038f4.pdf> <E:/GitHub/IPAC2015/MKIImpeda
+ncePaper/toSubmit/MOPJE038f5.pdf> <E:/GitHub/IPAC2015/MKIImpedancePaper/toSubmi
+t/MOPJE038f6.pdf>]
+Extra height:0.0pt when 144.23099pt
+(2)Left:144.23099pt Right:131.96199pt Output:144.23099pt
 - LAST -
 Extra skip:0.0pt
-Left:696.6899pt
-Right:696.6899pt
-Output:696.6899pt
-[3 <E:/GitHub/IPAC2014/MKIImpedancePaper/toSubmit/TUPRI030f6.pdf>]
-(E:\GitHub\IPAC2014\MKIImpedancePaper\toSubmit\TUPRI030.aux) ) 
+Left:144.23099pt
+Right:131.96199pt
+Output:144.23099pt
+ [4
+
+]
+(E:\GitHub\IPAC2015\MKIImpedancePaper\toSubmit\MOPJE038.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 16996 strings out of 493921
- 327075 string characters out of 3144879
- 388641 words of memory out of 3000000
- 19837 multiletter control sequences out of 15000+200000
- 110760 words of font info for 206 fonts, out of 3000000 for 9000
+ 16995 strings out of 493921
+ 327116 string characters out of 3144879
+ 371648 words of memory out of 3000000
+ 19842 multiletter control sequences out of 15000+200000
+ 112947 words of font info for 203 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  46i,11n,73p,10472b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files
- (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2
-.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc
-/dvips/tex-gyre/q-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-lm/lmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtm
-b.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtmr.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/newtx/rntxmi5.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/newtx/rntxmi7.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/txfonts/txex.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/txfonts/txmia.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/txfonts/txsy.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/newtx
-/txsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/newtx/txsy7.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on TUPRI030.pdf (3 pages, 633617 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program Files (x86)/M
+iKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/tex-gyre/qtmb.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+tex-gyre/qtmr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tex-gyr
+e/qtmri.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/newtx/rntxmi7
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txex.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/newtx/txsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/newtx/txsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on MOPJE038.pdf (4 pages, 648629 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
+ 315 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 29727 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 30239 words of extra memory for PDF output out of 35830 (max. 10000000)
 

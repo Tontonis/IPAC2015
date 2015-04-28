@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  27 APR 2015 15:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  28 APR 2015 18:24
 entering extended mode
 **E:/GitHub/IPAC2015/MKIImpedancePoster/IPACMKIHeatingPoster.tex
 (E:/GitHub/IPAC2015/MKIImpedancePoster/IPACMKIHeatingPoster.tex
@@ -1702,10 +1702,10 @@ Package pdftex.def Info: figures/manchester_logo.jpg used on input line 40.
 File: introductionPicture.pdf Graphic file (type pdf)
 
 <use introductionPicture.pdf>
-Package pdftex.def Info: introductionPicture.pdf used on input line 198.
+Package pdftex.def Info: introductionPicture.pdf used on input line 199.
 (pdftex.def)             Requested size: 1085.54912pt x 986.95274pt.
 
-Overfull \hbox (47.74765pt too wide) in paragraph at lines 198--198
+Overfull \hbox (47.74765pt too wide) in paragraph at lines 199--199
  [][]  
  []
 
@@ -1714,73 +1714,73 @@ File: beamScreenCrossSectionLabelled.pdf Graphic file (type pdf)
 
 <use beamScreenCrossSectionLabelled.pdf>
 Package pdftex.def Info: beamScreenCrossSectionLabelled.pdf used on input line 
-198.
+199.
 (pdftex.def)             Requested size: 597.05531pt x 373.27625pt.
 
 <HLLHCLayout.pdf, id=17, 455.30101pt x 284.62335pt>
 File: HLLHCLayout.pdf Graphic file (type pdf)
  <use HLLHCLayout.pdf>
-Package pdftex.def Info: HLLHCLayout.pdf used on input line 198.
+Package pdftex.def Info: HLLHCLayout.pdf used on input line 199.
 (pdftex.def)             Requested size: 597.05531pt x 373.27625pt.
 
-Overfull \hbox (130.39726pt too wide) in paragraph at lines 198--198
+Overfull \hbox (130.39726pt too wide) in paragraph at lines 199--199
  [][] 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 198.
+LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 199.
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 198.
+(Font)              using `OT1/cmss/bx/n' instead on input line 199.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <29.04> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 198.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 199.
 
 
 
-Overfull \hbox (22.491pt too wide) in paragraph at lines 198--198
+Overfull \hbox (22.491pt too wide) in paragraph at lines 199--199
 [][] 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 198.
+LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 199.
 <TUPRI030f4.pdf, id=18, 851.88264pt x 322.50487pt>
 File: TUPRI030f4.pdf Graphic file (type pdf)
  <use TUPRI030f4.pdf>
-Package pdftex.def Info: TUPRI030f4.pdf used on input line 198.
+Package pdftex.def Info: TUPRI030f4.pdf used on input line 199.
 (pdftex.def)             Requested size: 488.49379pt x 184.93199pt.
 
 <TUPRI030f3.pdf, id=19, 819.36111pt x 345.08923pt>
 File: TUPRI030f3.pdf Graphic file (type pdf)
  <use TUPRI030f3.pdf>
-Package pdftex.def Info: TUPRI030f3.pdf used on input line 198.
+Package pdftex.def Info: TUPRI030f3.pdf used on input line 199.
 (pdftex.def)             Requested size: 488.49379pt x 205.73872pt.
 
 <TUPRI030f6.pdf, id=24, 859.10965pt x 343.2825pt>
 File: TUPRI030f6.pdf Graphic file (type pdf)
  <use TUPRI030f6.pdf>
-Package pdftex.def Info: TUPRI030f6.pdf used on input line 198.
+Package pdftex.def Info: TUPRI030f6.pdf used on input line 199.
 (pdftex.def)             Requested size: 868.4426pt x 347.02686pt.
 
-Overfull \hbox (22.491pt too wide) in paragraph at lines 198--198
+Overfull \hbox (22.491pt too wide) in paragraph at lines 199--199
 [][] 
  []
 
 
-Overfull \vbox (9.73415pt too high) detected at line 198
+Overfull \vbox (9.73415pt too high) detected at line 199
  []
 
 File: figures/cern_logo_white.png Graphic file (type png)
 <use figures/cern_logo_white.png>
-Package pdftex.def Info: figures/cern_logo_white.png used on input line 198.
+Package pdftex.def Info: figures/cern_logo_white.png used on input line 199.
 (pdftex.def)             Requested size: 238.90393pt x 231.24901pt.
 File: figures/CI_logo_large.jpg Graphic file (type jpg)
  <use figures/CI_logo_large.jpg>
-Package pdftex.def Info: figures/CI_logo_large.jpg used on input line 198.
+Package pdftex.def Info: figures/CI_logo_large.jpg used on input line 199.
 (pdftex.def)             Requested size: 250.82251pt x 141.87071pt.
 File: figures/manchester_logo.jpg Graphic file (type jpg)
 
 <use figures/manchester_logo.jpg>
-Package pdftex.def Info: figures/manchester_logo.jpg used on input line 198.
+Package pdftex.def Info: figures/manchester_logo.jpg used on input line 199.
 (pdftex.def)             Requested size: 250.82251pt x 106.89587pt.
  [1{C:/Users/hday/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
@@ -1795,11 +1795,11 @@ KIImpedancePoster/TUPRI030f3.pdf> <E:/GitHub/IPAC2015/MKIImpedancePoster/TUPRI0
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
 
 (E:\GitHub\IPAC2015\MKIImpedancePoster\IPACMKIHeatingPoster.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 200.
 
 
  *File List*
@@ -1964,19 +1964,19 @@ figures/CI_logo_large.jpg
 figures/manchester_logo.jpg
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `IPACMKIHeatingPoster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 199.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 18251 strings out of 493921
- 333219 string characters out of 3144879
- 505185 words of memory out of 3000000
- 21067 multiletter control sequences out of 15000+200000
+ 18250 strings out of 493921
+ 333211 string characters out of 3144879
+ 504898 words of memory out of 3000000
+ 21066 multiletter control sequences out of 15000+200000
  17061 words of font info for 68 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  49i,21n,82p,899b,1291s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1993,7 +1993,7 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi17.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on IPACMKIHeatingPoster.pdf (1 page, 1147991 bytes).
+Output written on IPACMKIHeatingPoster.pdf (1 page, 1147886 bytes).
 PDF statistics:
  330 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
