@@ -68,7 +68,7 @@ The LHC injection kicker magnets (MKIs) experienced strong heating during the fi
 }\end{figure}
 
 \begin{itemize}
-\item{The beam screen design installed in the MKIs during long shutdown 1 (LS1) [1], has been designed to permit the inclusion of 24 screen conductors in the ceramic tube, whilst lowering the surface electric field on the ceramic tube during kicker pulsing to reduce the change of surface flashover.}
+\item{The beam screen design installed in the MKIs during long shutdown 1 (LS1) [1], has been designed to permit the inclusion of 24 screen conductors in the ceramic tube, whilst lowering the surface electric field on the ceramic tube during kicker pulsing to reduce the chance of surface flashover.}
 \item{The capacitively coupled end is significantly changed:}
 \begin{itemize}
 \item{The external metallization is replaced by an external metal tube which steps away from the ceramic tube near the ends of the screen conductors. This reduces the surface electric field on the ceramic tube significantly. Tapering the length of the conductors also helps this reduction.}
@@ -76,7 +76,7 @@ The LHC injection kicker magnets (MKIs) experienced strong heating during the fi
 \end{itemize}
 \item{A revised beam screen is suggested for HL-LHC:}
 \begin{itemize}
-\item{The external metal tube is modified to include a 1mm air gap at the HV plate side of the tube for the whole length of the tube, tapering to a 0mm gap across a 45$^{\circ}$ arc at the top of the tube on the ground plate side to reduce the likelihood of surface flashover.}
+\item{The external metal tube is modified to include a 1mm air gap at the HV plate side of the tube for the whole length of the tube, tapering to a 0mm gap across a 90$^{\circ}$ arc at the top of the tube on the ground plate side to reduce the likelihood of surface flashover.}
 \item{The total overlap between the screen conductors in decreased to increase the frequency of any resonances associated with this area [2]}
 \end{itemize}
 \end{itemize}
@@ -85,15 +85,7 @@ The LHC injection kicker magnets (MKIs) experienced strong heating during the fi
 
             \vfill
 
-\vfill
-\begin{block}{References}
-\begin{enumerate}
-\item{\small{M.J. Barnes \emph{et al}., \emph{Upgrade of the LHC Injection Kicker Magnets}, IPAC2013, MOPWA030}}
-\item{\small{H. Day \emph{et al}., \emph{Beam Coupling Impedance of the New Beam Screen of the LHC Injection Kickers}, IPAC2014, TUPRI030}}
-\item{\small{M.J. Barnes \emph{et al}., \emph{Cooling of the LHC Injection Kicker Magnet Ferrite Yoke: Measurements and Future Proposals}, IPAC2014, MOPME075}}
-\item{\small{Hugo Day, PhD Thesis, June 2013}}
-\end{enumerate}
-\end{block}
+
          \vfill
           }
         \end{minipage}
@@ -111,81 +103,74 @@ The LHC injection kicker magnets (MKIs) experienced strong heating during the fi
             % Since all columns are the same length, it is all nice and tidy.  You have to get the height empirically
             % ---------------------------------------------------------%
             % fill each column with content
-\begin{block}{Impedance Measurements of New Design}
+\begin{block}{Impedance Characteristics of the New Design}
 \begin{itemize}
 \begin{small}
-\item{The beam coupling impedance for all MKIs with the new beam screen design is measured before bake out and HV conditioning to ensure consistency between magnets and to foresee any possible problems with regards to heating.}
-\item{Measurements are typically done using the coaxial resonant method due to it's sensivity to low impedances.}
+\item{Previous work [2] has shown that the resonant frequency, $f_{res}$, of the beam impedance is determined by the length of the overlap between the screen conductors and the external metal cylinder, given by:}
+\begin{equation}
+f_{res} = \frac{n c}{2 \sqrt{\epsilon_{r}}\left( L_{overlap} + \delta_{fringe} \right)}
+\end{equation}
+where $n$ is an integer, $c$ the speed of light, $\epsilon_{r}$ is the relative permitivitty of the ceramic tube, $L_{overlap}$ the length of overlap between the screen conductors and the external cylinder and $\delta_{fringe}$ the influence of the fringe fields on the effective length.
+\item{The beam current spectrum decreases at high frequencies, implying that the power loss (Eqn.~\ref{eqn:powLoss}) can be reduced by increasing the resonant frequencies.}
+\begin{equation}
+P_{loss} = 2 \left( f_{0} e M  N_{b}\right)^{2} \displaystyle\sum\limits_{n = -\infty}^{\infty}  \left| \lambda \left( p M \omega_{0} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p M \omega_{0} \right) \right]
+\label{eqn:powLoss}
+\end{equation}
+where $f_{0}$ is the revolution frequnecy, $\omega_{0} = 2\pi f_{0}$, $e$ is the charge of an electron, $N_{b}$ is the number of particles per bunch, $M$ is the number of bunches in the machine, $\lambda (\omega)$ is the beam current spectrum, and $\Re{}e(Z_{\parallel}(\omega))$ is the real component of the longitudinal beam coupling impedance.
+\item{The effect of the small air gap in the proposed new design also needs to be verified}
 \end{small}
 \end{itemize}
+
+
 \begin{figure}
 \subfigure[]{
-\includegraphics[width=0.45\textwidth]{TUPRI030f4.pdf}
-\label{fig:allMKIsNew}
-}
+\includegraphics[width=0.4\textwidth]{differentScreenSpacings.pdf}
+\label{fig:differentEndArrangement}}
 \subfigure[]{
-\includegraphics[width=0.45\textwidth]{TUPRI030f3.pdf}
-\label{fig:MKIsCondsNumber}
-}\caption*{\small{Impedance measurements of \subref{fig:allMKIsNew} all MKIs with the new design using the resonant coaxial wire method and  \subref{fig:MKIsCondsNumber} MKIs with 15, 19 and 24 screen conductors, and the MKI8D pre TS3 (experienced high temperatures)}}
+\includegraphics[width=0.55\textwidth]{simMeasGatingOverlap.pdf}
+\label{fig:simMeasComp}}
 \end{figure}
+
+\begin{itemize}
+\item{Simulations of small air gap were carried out using CST Particle Studio for the following cases, each with $L_{overlap}$=107mm: a) as the post-LS1 setup, b) a 1mm air-gap between the tube and the external cylinder, c) as for (b) but the air is replaced by ceramic, d) an offset air-gap, resulting in a gap of 1mm at the bottom and 0mm at the top. The results are shown in Fig.~\ref{fig:differentEndArrangement}. It was found that the proposed gap increased the resonant frequency for the same length (due to decreased capacitance) - a beneficial result}
+\item{Simulations and measurements of different values of $L_{overlap}$ were carried out; the measurements were made using the resonant coaxial wire method and the classical coaxial wire method (without matching resistor network, but with time domain gating)}
+\item{Results for the simulations (dashed lines) and classical wire measurements (solid lines) are shown in Fig.~\ref{fig:simMeasComp} - in both the simulations and measurements $f_{res}$ is seen to increase as $L_{overlap}$ is decreased. The discrepency between the two has been found to be due to meshing errors introducing small conductive paths between the inner and outer conductors.}
+\end{itemize}
+
 \begin{table}
 \label{tab:beamPar}
 \caption*{Beam parameters for power loss calculations}
 \begin{center}
 \begin{tabular}{c | c | c | c | c}
 \small{Running Mode} & $N_{b}$ $10^{11}$ & $n_{bunches}$ & bunch length (ns) & Bunch separation (ns) \\ \hline 
-\small{Pre-LS1} & 1.6 & 1380 & 1.2 & 50 \\ \hline
 \small{Post-LS1} & 1.15 & 2808 & 1.0 & 25 \\ \hline
-\small{HL-LHC 25ns}& 2.2 & 1380 & 1.0 & 25 \\ \hline
-\small{HL-LHC 50ns}& 3.5 & 2808 & 1.0 & 50 \\
+\small{HL-LHC 25ns}& 2.2 & 1380 & 1.0 & 25 \\ 
 \end{tabular}
 \end{center}
 \end{table}
 
-\begin{table}
-\label{tab:heating-mki-screen-designs}
-\caption*{\small{The power loss expected  in the MKIs for the magnets measured so far. All power losses are given in W/m.}}
-\begin{center}
-\begin{tabular}{c | c | c | c | c}
-\small{Screen Design} & \small{Pre-LS1} & \small{Post-LS1} & \small{HL-LHC 50ns} & \small{HL-LHC 25ns} \\ \hline 
-\small{New Design (24 conductors)} & 20-35 & 34-52 & 151-240 & 125-191 \\ \hline
-\small{15 screen conductors} & 68 & 117 & 538 & 432 \\ \hline
-\small{Old MKI8D (twisted, 15 conds)} & 168 & N/A & N/A & N/A \\ \hline
-\small{19 screen conductors} & 52 & 76 & N/A & N/A \\
-\end{tabular}
-\end{center}
-\end{table}
+\begin{figure}
+\includegraphics[width=0.55\textwidth]{heatingOverlapFull.pdf}
+\caption{Power loss for various overlap lengths with Post-LS1 parameters}
+\label{fig:powLossTotal}
+\end{figure}
+
 \begin{itemize}
-\item{The new design with 24 conductors gives a decrease of some 20-50\% for post-LS1 parameters compared to the magnets with 15 screen conductors pre-LS1 - a great success! It is predicted that beam-induced heating should no longer be a problem in the MKIs for nominal LHC parameters.}
+\item{The power loss for various values of $L_{overlap}$ is shown in Fig.~\ref{fig:powLossTotal}, assuming Post-LS1 parameters for the LHC (see Table.~1). It can be seen that the minimum occurs in the region of 70mm-80mm, giving a reduction of some 20\% over the 107mm as is the case for the current design.}
+\item{This power loss corresponds to 140W/m with HL-LHC parameters, close to that calculated for the non-conforming MKI8D - in this case the temperature of the ferrite yoke would still be uncomfortably close to the Curie temperature during operation indicating improved cooling must also be considered [3]. A prototype is intended to be installed in the LHC for testing prior to LS2}
 \end{itemize}
 
+
 \end{block}
+
 \vfill
-\begin{block}{Future Developments}
-\begin{itemize}
-\begin{small}
-\item{The table above shows that for the proposed beam parameters for HL-LHC, the power loss calculated for the MKIs will be as high under these parameters as the power loss in the MKI8D pre-TS3.}
-\item{Given the high temperatures observed in MKI8D, it is necessary to either reduce the power loss or improve the evacuation of heat from the ferrite yoke.}
-\begin{itemize}
-\item{The cooling of the MKIs is dominated by radiative heat transfer to the vacuum tank. However the tank is highly polished giving a low thermal emissivity, particularly of the vacuum tank. Studies into how to improve the heat transfer are underway [2].}
-\end{itemize}
-\item{To reduce the power loss either two paths may be considered:}
-\begin{itemize}
-\item{A different type of beam screen.}
-\item{Modify the existing design to reduce the interaction with the beam current.}
-\end{itemize}
-\item{Previous work [3] has shown that the resonant frequency of the beam impedance is determined by the length of the overlap between the screen conductors and the external metal cylinder, given by }
-\begin{equation}
-f_{res} = \frac{n c}{2 \sqrt{\epsilon_{r}}\left( L_{overlap} + \delta_{fringe} \right)}
-\end{equation}
-where $n$ is an integer, $c$ the speed of light, $\epsilon_{r}$ is the relative permitivitty of the ceramic tube, $L_{overlap}$ the length of overlap between the screen conductors and the external cylinder and $\delta_{fringe}$ the influence of the fringe fields on the effective length.
-\item{If the overlap can be shortened the resonant frequency will increase, pushing the resonances into a region where the beam current spectrum is smaller in magnitude. Initial simulations with  different lengths of overlap are plotted with profile of a 1ns Gaussian bunch below - They show that the resonant frequency increases as the overlap is decreased - as expected. Further studies are underway to better evaluate this possibility.}
-\end{small}
-\end{itemize}
-\begin{center}\includegraphics[width=0.8\textwidth]{TUPRI030f6.pdf}
-\end{center}
+\begin{block}{References}
+\begin{enumerate}
+\item{\small{M.J. Barnes \emph{et al}., \emph{Upgrade of the LHC Injection Kicker Magnets}, IPAC2013, MOPWA030}}
+\item{\small{H. Day \emph{et al}., \emph{Beam Coupling Impedance of the New Beam Screen of the LHC Injection Kickers}, IPAC2014, TUPRI030}}
+\item{\small{M.J. Barnes \emph{et al}., \emph{Cooling of the LHC Injection Kicker Magnet Ferrite Yoke: Measurements and Future Proposals}, IPAC2014, MOPME075}}
+\end{enumerate}
 \end{block}
-
 
 
 \vfill
